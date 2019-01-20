@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!-- TODO (5) add colorBeige item with value #D4D6C0 -->
+    <!-- TODO (6) add colorBlue item with value #1F4E79 -->
+    <!-- TODO (7) add colorCyan item with value #A1D6E3 -->
+    <!-- TODO (8) add colorBlack item with value #222A35 -->
+</resources>

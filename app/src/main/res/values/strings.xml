@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ChatApplication</string>
+    <string name="spash_screen_text">Hello Friends</string>
 </resources>

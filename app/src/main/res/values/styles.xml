@@ -1,16 +1,16 @@
 <resources>
 
     <!-- Base application theme. -->
-    <!-- TODO (0) change the item parent to "Theme.AppCompat.Light.NoActionBar" -->
-    <!-- TODO (1) change the item parent to "Theme.AppCompat.Light.NoActionBar" -->
-    <!-- TODO (2) remove item primary color and color accent  -->
-    <!-- TODO (3) set color primary dark item to @android:color/black -->
+    <!-- DONE change the item parent to "Theme.AppCompat.Light.NoActionBar" -->
+    <!-- DONE (1) change the item parent to "Theme.AppCompat.Light.NoActionBar" -->
+    <!-- DONE (2) remove item primary color and color accent  -->
+    <!-- DONE (3) set color primary dark item to @android:color/black -->
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorPrimaryDark">@android:color/black</item>
+
     </style>
 
 </resources>

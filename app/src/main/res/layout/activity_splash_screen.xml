@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- TODO (4) Change this layout from ConstraintLayout to RelativeLayout and remove xmlns:app argument -->
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<!-- DONE Change this layout from ConstraintLayout to RelativeLayout and remove xmlns:app argument -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@android:color/white"
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity">
 
-    <!-- TODO (9) Remove TextView item -->
+    <!-- DONE Remove TextView item -->
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/splash_screen_pic"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+        <TextView
+            android:textColor="@color/colorBlue"
+            android:layout_marginTop="20dp"
+            android:textSize="28sp"
+            android:fontFamily="@font/pinyon_script"
+            android:text="@string/spash_screen_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
+    </LinearLayout>
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    <!-- TODO (10) add a linearLayout and place it to the center of the smartphone -->
-    <!-- TODO (11) add an ImageView and a TextView with the appropriate values into the previous LinearLayout-->
-    <!-- TODO (12) download  pinyonscript link : http://fonts.google.com/?query=script&selection.family=Pinyon+Script -->
-    <!-- TODO (13) set fonts   to pinyonscript font  link from android documentation https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml  -->
-    <!-- TODO (14) add a textView in the bottom of your Activity-->
+        android:textSize="26sp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/pinyon_script"
+        android:text="Best Friends Forever"
+        android:textColor="@color/colorBlue"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!-- DONE add a linearLayout and place it to the center of the smartphone -->
+    <!-- DONE add an ImageView and a TextView with the appropriate values into the previous LinearLayout-->
+    <!-- DONE download  pinyonscript link : http://fonts.google.com/?query=script&selection.family=Pinyon+Script -->
+    <!-- DONE set fonts   to pinyonscript font  link from android documentation https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml  -->
+    <!-- DONE add a textView in the bottom of your Activity-->
 
 
 
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
